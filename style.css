@@ -1,0 +1,80 @@
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1500px;
+  margin: 20px;
+}
+.contenedor-tarjetas .tarjeta {
+  background-color: #C06C84;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+.contenedor-tarjetas .tarjeta h2 {
+  color: white;
+  font-size: small;
+}
+.contenedor-tarjetas .tarjeta .imagen-tarjeta {
+  background-color: #F8B195;
+  width: 100px;
+  height: 100px;
+}
+.contenedor-tarjetas .tarjeta img {
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+}
+.contenedor-tarjetas .tarjeta button {
+  background-color: white;
+  width: 100px;
+  color: #355C7D;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contenedor-trago {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  display: none;
+}
+.contenedor-trago .tarjeta-info-trago {
+  width: 400px;
+  padding: 20px;
+  background-color: #C06C84;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+}
+.contenedor-trago .tarjeta-info-trago img {
+  width: 100px;
+  height: 100px;
+}
+.contenedor-trago .tarjeta-info-trago div {
+  margin-left: 50px;
+}
+
+body {
+  background-color: #355C7D;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: #F8B195;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

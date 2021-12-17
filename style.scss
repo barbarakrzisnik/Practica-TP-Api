@@ -1,0 +1,17 @@
+@import "variables";
+@import "tarjeta";
+
+
+body {
+    background-color: $color-fondo;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    color: $color-secundario;
+    margin-top: 20px;
+    margin-left: 20px;
+}
